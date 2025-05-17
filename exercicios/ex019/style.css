@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* 
+    id em HTML = # em CSS (SÓ PODE UM ELEMENTO)
+    class em HTML = . em CSS (PODE VÁRIOS ELEMENTOS)
+
+*/
+
+
+body {
+    background-color: rgb(193, 243, 193);
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    color: rgb(67, 131, 67);
+}
+
+h1#principal { /*DÁ PRA COLOCAR SÓ #PRINCIPAL, SEM A TAG H1 */
+    text-align: center; 
+    background-color: rgb(61, 102, 72);  
+    color: white;
+}
+
+h2 {
+    color: rgb(73, 78, 73);
+}
+
+.basico {
+    color: #3c805e;
+}
+
+.interm {
+    color: #80793c;
+}
+
+.avanc {
+    color: #803c3c
+}
+
+.destaque {
+    background-color: rgba(211, 211, 22, 0.575);
+}
